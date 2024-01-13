@@ -114,12 +114,12 @@ const Contact = () => {
             />
           </label>
 
-          <button
+         <a href="https://www.facebook.com/profile.php?id=100074332840871"
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
-          </button>
+            </a>
         </form>
       </motion.div>
 

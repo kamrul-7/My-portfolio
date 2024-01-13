@@ -175,17 +175,17 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  // {
+  //   title: "",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -258,7 +258,7 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
+    title: "React Developer",
     company_name: "Tesla",
     icon: tesla,
     iconBg: "#E6DEDD",
@@ -327,9 +327,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "GoodTools.ai",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The website allows users to filter the AI tools based on their preferences and needs. Each tool is presented with relevant information, making it easier for users to find the best AI tool for their specific requirements. The site also includes a sorting feature to arrange the listed tools based on different criteria such as popularity, price, and type.",
     tags: [
       {
         name: "react",
@@ -345,12 +345,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kamrul-7/GoodTolls.Ai",
   },
   {
-    name: "Job IT",
+    name: "Used Products buy and sell",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "used product buy and sell website operates with three key roles: admin, buyer, and seller. Admins manage and maintain the platform to ensure a secure and efficient marketplace. Buyers can easily explore a variety of used products, refine searches, and make informed purchases.",
     tags: [
       {
         name: "react",
@@ -369,12 +369,13 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Doctors Portal",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "
+Introducing our Doctors Portal website, a streamlined platform where users can effortlessly book doctor appointments and secure their place in the queue. With a user-friendly interface, patients can browse through a diverse range of healthcare professionals, view their availability, and schedule appointments with just a few clicks. The portal ensures convenience by allowing users to confirm their appointment and obtain a serial number for a hassle-free and organized visit. Our platform prioritizes user experience, providing a seamless and efficient process for both patients and medical practitioners",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
@@ -387,7 +388,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/kamrul-7/Doctors-portal",
   },
 ];
 
